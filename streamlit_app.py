@@ -1,4 +1,11 @@
 import streamlit as st
+
+st.set_page_config(
+    page_title="CryptoCode Lab",
+    page_icon="₿",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)import streamlit as st
 from streamlit_ace import st_ace
 import datetime
 import requests
