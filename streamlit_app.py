@@ -32,3 +32,5 @@ if username in users and users[username] == sha256(password.encode()).hexdigest(
     # proceed to app
 else:
     st.error("Invalid username or password")
+if username == "hardcoded" and password == "hardcoded":
+    # login success
